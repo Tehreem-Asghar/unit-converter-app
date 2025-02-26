@@ -1,3 +1,10 @@
 streamlit==1.42.2
 python-dotenv
 google-generativeai
+jupyter
+pandas
+mypy
+numpy
+pint
+google-generativeai
+python-dotenv
