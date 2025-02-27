@@ -156,7 +156,7 @@ st.markdown("""
     
     /* Message styling */
     .chat-message {
-        padding: 15px;
+        padding: 0px;
         margin: 10px 0;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -169,7 +169,7 @@ st.markdown("""
     
     .bot-message {
         background-color: #f5f5f5;
-        margin-right: 20%;
+        margin-right: 10%;
     }
     
     /* New chat button styling */
@@ -199,9 +199,9 @@ st.markdown("""
  
     .stChatInput {
         position: fixed;
-        bottom: 10px;
-        width: 70%;
-        background: white;
+        bottom: 50px;
+        width: 90%;
+      
         padding: 10px;
         z-index: 999;
          /* border: 2px solid gray;  Border added with red color */
