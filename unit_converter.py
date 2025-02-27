@@ -35,7 +35,7 @@ if 'error_count' not in st.session_state:
 
 chat_Key = os.getenv("CHAT_KEY") 
 # Configure Gemini API          
-genai.configure(api_key=chat_Key)
+genai.configure(api_key="AIzaSyB3zyj5X_FL7JbwVAjm3whpo9N4qaA_-_M")
 
 def chat_with_gemini(user_input):
     try:
